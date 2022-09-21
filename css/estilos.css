@@ -254,8 +254,8 @@ body{
     flex-direction: column;
     justify-content: center;
     transform: translateX(100%);
-    cursor: pointer;
     transition: transform .3s ease-in-out;
+    cursor: default;
 
 }
 
@@ -390,7 +390,7 @@ body{
 
     .hero{
         height: 100vh;
-        background-image: var(--background), url('../../FreeHtmlCss/assets/freecredit.jpeg');
+        background-image: var(--background), url('../assets/freecredit.jpeg');
         background-repeat: no-repeat;
         background-size:auto;
         background-attachment: fixed;
@@ -500,7 +500,7 @@ body{
     }
     .hero{
         height: 100vh;
-        background-image: var(--background), url('../../FreeHtmlCss/assets/freecredit.jpeg');
+        background-image: var(--background), url('../assets/freecredit.jpeg');
         background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
