@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Raleway:wght@300;400;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@1,600&family=Raleway:wght@300;400;700&family=Righteous&display=swap');
 :root{
-    --background: linear-gradient(25deg, #1d06f3d3 0%, #5b5dc5bd 100%);
+    --background: linear-gradient(35deg, #1d06f3d3 0%, #5b5dc5bd 100%);
     --color-primary:#000000;
     --color-secundary:#3877ffe3;
     --boton-padding:20px 40px;
@@ -11,7 +11,6 @@ html{
 }
 
 h1{
-    font-family: 'Righteous', cursive;
     font-size: 100px;
 }
 
