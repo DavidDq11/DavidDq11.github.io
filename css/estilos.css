@@ -426,17 +426,31 @@ body{
     }
 
     .about{
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
 
     .about.container{
         padding-top: 30px;
     }
 
-    .about_texts:last-child{
-        grid-row:1/4;
+    .about_img:nth-child(1){
+        grid-row:2;
     }
-
+    .about_img:nth-child(3){
+        grid-row:4;
+    }
+    .about_img:nth-child(5){
+        grid-row:6;
+    }
+    .about_img:nth-child(7){
+        grid-row:8;
+    }
+    .about_img:nth-child(9){
+        grid-row:10;
+    }
+    .about_img:nth-child(11){
+        grid-row:12;
+    }
     /*projects
      grid-template-areas: 
     "img1 img1 img2 img3"
