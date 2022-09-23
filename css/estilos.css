@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@1,600&family=Libre+Franklin:wght@600&family=Raleway:wght@300;400;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@1,600&family=Libre+Franklin:wght@600&family=Oswald:wght@500&family=Raleway:wght@300;400;700&family=Righteous&display=swap');
 :root{
     --background: linear-gradient(86deg, #1d06f3d3 0%, #1e0db9c5 100%);
     --color-primary:#000000;
@@ -505,8 +505,8 @@ body{
     }
     
     h2{
-        font-family: 'Concert One', cursive;
-        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
     }
 
     .subtitle{
